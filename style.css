@@ -5,12 +5,17 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
+body {
+  background-image: url(space-hedgie.jpg);
+
+  background-size: cover;
+}
 .modal {
-  width: 650px;
+  width: 600px;
   border-radius: 4px;
   display: block;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 60px;
   background-color: rgba(240, 240, 237, 0.85);
 }
 
@@ -53,7 +58,7 @@ p {
 
 button,
 input {
-  margin: 25px 15px 30px 15px;
+  margin: 25px 15px 20px 15px;
   font-size: 17px;
   padding: 8px 16px;
   border: none;
@@ -62,10 +67,10 @@ input {
   text-decoration: none;
   text-align: center;
   color: #fff;
-  background-color: orange;
+  background-color: #540445;
   outline: none;
 }
 
 input:hover {
-  background-color: #FB690A;
+  background-color: #7f4374;
 }
